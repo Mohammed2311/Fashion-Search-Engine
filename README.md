@@ -1,11 +1,18 @@
 # Fashion-Search-Engine
 
-This is a Fashion Search Engine project that utilizes the CLIP model for searching with text and images and the YOLO-NAS model for object detection and feature extraction. With this search engine, users can search for fashion items by either providing textual descriptions or uploading images, making it easier to find specific fashion items or similar styles.
+This Fashion Search Engine is a project that combines the power of the CLIP (Contrastive Language-Image Pre-training) model for text and image search, the YOLO-NAS (You Only Look Once Neural Architecture Search) model for object detection and feature extraction, and a Faiss vector store for efficient similarity search. The goal of this project is to enable users to search for fashion items using both text queries and images, making it a powerful tool for fashion enthusiasts, shoppers, and e-commerce platforms.
 
 ## Introduction
 Introduction
 Fashion Search Engine is designed to streamline the process of finding fashion items online. It combines the power of natural language processing (NLP) and computer vision to provide an enhanced search experience. Whether you want to describe an item in text or upload an image, this search engine will help you find visually similar fashion items.
 
+
+## Features
+Text and Image Search: Users can search for fashion items by entering text queries or uploading images. The system will return relevant fashion items based on both the textual description and visual features of the input.
+
+Object Detection and Feature Extraction: The YOLO-NAS model is used to detect objects and extract relevant features from fashion images. This allows for precise matching and retrieval of similar items.
+
+Efficient Similarity Search: Faiss is used as a vector store to efficiently search for similar items in a large fashion database. Faiss enables fast retrieval of the most relevant fashion items based on the extracted features.
 ## Usage
 
 You can perform two types of searches:
